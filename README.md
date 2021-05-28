@@ -876,11 +876,11 @@ Both models have equal Accuracy scores, while the model parameters are slightly 
 
 The following two use cases are not that straightforward. Students have some of their HS scores in the lower range while others are in the higher range. 
 #
-<img src="images/model1_vs_model2_SE_adequate2.png" style="width:450px;">
+<img src="images/model1_vs_model2_SE_failed2.png" style="width:450px;">
 
 **Example 3:**<br>
-* The first use case is a case of a student with poor HS test results in subjects others than Engineering while the Engineering HS score and Critical Reading score are relatively high. Both models were successful in predicting the actual outcome in this case. 
-* The influence of the Engineering test score and Critical Reading score features were not powerful enough to compensate for the poor performance in other tests.
+* The first use case is a student with poor HS test results in subjects others than Civics score. Both models were successful in predicting the actual outcome in this case. 
+* The influence of the Civics score feature was not powerful enough to compensate for the poor performance in other tests.
 *  Both models were successful in predicting the actual outcome in this case. 
 #
 
@@ -890,7 +890,6 @@ The following two use cases are not that straightforward. Students have some of 
 * The second use case is a relatively simple case of a student with strong HS scores and at not so affluent university program.
 * This case indicates that the socio-economic factors (SEL_IHE and SISBEN are related categories) while being among the most important features, affect professional test scores less than the student's high-school test scores.
 * The student succeeded, and both models correctly predicted the outcome. 
-
 #
 
 The subsequent two use cases are the most interesting ones; the models, at least one of them, failed to predict the student's performance correctly. 
@@ -928,7 +927,7 @@ The subsequent two use cases are the most interesting ones; the models, at least
 <br>
 
 <p>
-    <img src="images/ranking_universities.png" style="width:800px">
+    <img src="images/ranking_universities_models.png" style="width:800px">
 </p><br>
 <br>
 
