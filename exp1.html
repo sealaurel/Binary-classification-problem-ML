@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divO7YG8LN5BNTN4JI"></div>
+        <div class="lime top_div" id="top_div6SDDGV86QWIZDC1"></div>
         
         <script>
-        var top_div = d3.select('#top_divO7YG8LN5BNTN4JI').classed('lime top_div', true);
+        var top_div = d3.select('#top_div6SDDGV86QWIZDC1').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["Adequate", "Failing"], [0.9829975640955088, 0.01700243590449127]);
+            var pp = new lime.PredictProba(pp_svg, ["Adequate", "Failing"], [0.1348879710503621, 0.8651120289496379]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["Adequate", "Failing"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["ENG_S11 > 0.62", -0.2943761539952155], ["MAT_S11 > 0.62", -0.16173694801710295], ["SEL_IHE > 0.67", -0.10232362293847698], ["0.49 < CR_S11 <= 0.57", -0.055060465951661475], ["0.60 < BIO_S11 <= 0.67", -0.035624149656299856], ["0.60 < CC_S11 <= 0.67", -0.03321839525786253]], 1, exp_div);
+                exp.show([["MAT_S11 <= 0.41", 0.14863615838497674], ["BIO_S11 <= 0.52", 0.14491242299492738], ["CC_S11 <= 0.54", 0.10992608819722217], ["0.32 < ENG_S11 <= 0.45", 0.10196764234802473], ["SEL_IHE <= 0.33", 0.09451380554547202], ["CAR_Yes <= 0.00", -0.03554209241207414]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["ENG_S11", "0.93", -0.2943761539952155], ["MAT_S11", "0.95", -0.16173694801710295], ["SEL_IHE", "1.00", -0.10232362293847698], ["CR_S11", "0.54", -0.055060465951661475], ["BIO_S11", "0.67", -0.035624149656299856], ["CC_S11", "0.66", -0.03321839525786253]], 1, raw_div);
+            exp.show_raw_tabular([["MAT_S11", "0.36", 0.14863615838497674], ["BIO_S11", "0.45", 0.14491242299492738], ["CC_S11", "0.52", 0.10992608819722217], ["ENG_S11", "0.35", 0.10196764234802473], ["SEL_IHE", "0.33", 0.09451380554547202], ["CAR_Yes", "0.00", -0.03554209241207414]], 1, raw_div);
         
         </script>
         </body></html>

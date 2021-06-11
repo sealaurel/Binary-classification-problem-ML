@@ -8,9 +8,9 @@
 * Student name: <b>Elena Kazakova</b>
 * Student pace: <b>full time</b>
 * Cohort: <b>DS02222021</b>
-* Scheduled project review date/time: <span style="color:red"><b>TBD</b></span>
+* Scheduled project review date/time: <span style="color:red"><b>06/04/2021</b></span>
 * Instructor name: <b>James Irving</b>
-* Blog post URL: <span style="color:red"><b>TBD</b></span>
+* Blog post URL: <span style="color:red"><b>https://towardsdatascience.com/venn-diagram-a-not-so-common-visualization-tool-b2bcd5e8c91</b></span>
 
 # Table of Contents 
 
